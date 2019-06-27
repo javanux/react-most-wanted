@@ -53,9 +53,11 @@
     "redux-form-material-ui": "^4.3.3",
     "redux-persist": "^5.5.0",
     "redux-responsive": "^4.3.5",
-    "redux-thunk": "^2.2.0",
     "rmw-shell": "^1.4.23",
-    "source-map-explorer": "^1.5.0"
+    "source-map-explorer": "^1.5.0",
+    "classnames": "^2.2.6",
+    "react-error-overlay": "^5.1.6",
+    "react-dropzone": "^10.1.5"
   },
   "scripts": {
     "check": "npm-check -s -u",
