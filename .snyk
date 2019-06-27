@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:extend:20180424':
+    - react-markdown > unified > extend:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > extend:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > extend:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > extend:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:hawk:20160119':
+    - material-ui-superselectfield > codecov.io > request > hawk:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:hoek:20180212':
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > hawk > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > hawk > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > hawk > sntp > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:mime:20170907':
+    - material-ui-superselectfield > codecov.io > request > form-data > mime:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:stringstream:20180511':
+    - material-ui-superselectfield > codecov.io > request > stringstream:
+        patched: '2019-06-27T09:22:54.137Z'
+    - material-ui-superselectfield > coveralls > request > stringstream:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > stringstream:
+        patched: '2019-06-27T09:22:54.137Z'
+    - firebaseui > firebase > @firebase/firestore > grpc > node-pre-gyp > request > stringstream:
+        patched: '2019-06-27T09:22:54.137Z'
+  'npm:tunnel-agent:20170305':
+    - material-ui-superselectfield > codecov.io > request > tunnel-agent:
+        patched: '2019-06-27T09:22:54.137Z'
