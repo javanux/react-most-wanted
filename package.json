@@ -10,7 +10,7 @@
     "standard": "^10.0.3"
   },
   "dependencies": {
-    "chart.js": "^2.7.1",
+    "chart.js": "^2.7.2",
     "echarts": "^4.0.2",
     "echarts-for-react": "^2.0.5",
     "firebase": "^4.9.0",
@@ -34,7 +34,7 @@
     "react-container-dimensions": "^1.3.3",
     "react-countup": "^3.0.2",
     "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-helmet": "^5.2.0",
     "react-image-cropper": "^1.2.0",
     "react-infinite": "^0.12.1",
@@ -55,7 +55,8 @@
     "redux-responsive": "^4.3.5",
     "redux-thunk": "^2.2.0",
     "rmw-shell": "^1.4.23",
-    "source-map-explorer": "^1.5.0"
+    "source-map-explorer": "^1.6.0",
+    "snyk": "^1.185.5"
   },
   "scripts": {
     "check": "npm-check -s -u",
@@ -64,7 +65,9 @@
     "standard": "standard src/**/*.js ",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Tarik Huber",
   "homepage": "https://www.react-most-wanted.com/",
@@ -75,5 +78,6 @@
     "react",
     "redux",
     "firebase"
-  ]
+  ],
+  "snyk": true
 }
