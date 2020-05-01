@@ -6,10 +6,14 @@
     "firebase-admin": "^5.8.1",
     "firebase-functions": "^0.8.1",
     "glob": "^7.1.2",
-    "nodemailer": "^4.4.2"
+    "nodemailer": "^4.4.2",
+    "snyk": "^1.316.1"
   },
   "private": true,
   "scripts": {
-    "check": "npm-check -s -u"
-  }
+    "check": "npm-check -s -u",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
